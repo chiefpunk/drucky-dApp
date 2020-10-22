@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "public": true,
+  "scope": "drucky",
+  "alias": "court-staging.drucky.org",
+  "build": {
+    "env": {
+      "REACT_APP_CHAIN_ID": "4",
+      "REACT_APP_SUBGRAPH_NAME": "staging",
+      "REACT_APP_COURT_SERVER_NAME": "staging"
+    }
+  }
+}
